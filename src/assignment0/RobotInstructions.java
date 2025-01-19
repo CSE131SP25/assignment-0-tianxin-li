@@ -29,11 +29,22 @@ public class RobotInstructions  {
 		 * You will add instructions at the end of the code to cause the support.robot to move
 		 * as you desire.
 		 */
+		
+		// Make the robot draw a picture of a tree
+		robot.forward(60); //Replacing the robot.forward(120) with two lines of robot.forward(60)
 		robot.forward(60);
 		robot.turnLeft(90);
-		robot.forward(23);
+		robot.forward(200);
+		robot.turnRight(120);
+		robot.forward(450);
+		robot.turnRight(120);
+		robot.forward(450);
+		robot.turnRight(120);
+		robot.forward(200);
+		robot.turnLeft(90);
+		robot.forward(120);
 		robot.turnRight(90);
-		robot.forward(80);
+		robot.forward(50);
 	}
 
 }
